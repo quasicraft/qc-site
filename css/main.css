@@ -5,7 +5,7 @@ body, html {
 }
 
 .background {
-  background-image: url("../img/2021-02-02_11.53.42.png");
+  background-image: url("../img/dark-background.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
