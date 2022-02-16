@@ -22,16 +22,16 @@ h1 {
   font-weight: 900;
   color: #fff;
   margin: 0;
-  font-size: 50pt;
+  font-size: 40pt;
 }
 
 h1.subtitle {
   text-align: center;
   font-weight: 400;
   color: #fff;
-  font-size: 20pt;
+  font-size: 15pt;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 a.menu {
