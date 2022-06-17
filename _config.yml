@@ -5,3 +5,5 @@ relative-links:
   collections: true
 include:
   - qc-info.d
+
+theme: jekyll-theme-slate
