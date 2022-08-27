@@ -1,9 +1,0 @@
-plugins:
-  - jekyll-relative-links
-relative-links:
-  enabled: true
-  collections: true
-include:
-  - qc-info.d
-
-theme: jekyll-theme-slate
