@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "../public/icon.png";
+import logo from "../public/images/icon.png";
 
 export default function Layout({ children }) {
   return(
