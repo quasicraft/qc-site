@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev"
+    "dev": "next dev",
+    "export": "next export"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
