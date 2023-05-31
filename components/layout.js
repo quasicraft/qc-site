@@ -8,11 +8,11 @@ export default function Layout({ children }) {
     <div className="flex flex-col min-h-screen bg-slate-950 text-slate-100">
       <header  className="mb-8 py-4">
         <div className="container mx-auto max-w-4xl flex justify-between">
-          <Link href="/index">
+          <Link href="/">
             <Image width="48" height="48" src={logo} />
           </Link>
           <nav className="my-auto space-x-12">
-            <Link href="/index">
+            <Link href="/">
               Home
             </Link>
             <Link href="/gallery">
