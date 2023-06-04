@@ -1,5 +1,5 @@
 export default function Home() {
   return(
-    <div>Hello, world!</div>
+    <div className="mx-8">Hello, world!</div>
   );
 }
