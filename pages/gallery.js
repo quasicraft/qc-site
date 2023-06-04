@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Gallery() {
 
@@ -6,7 +7,7 @@ export default function Gallery() {
     "mob-switch", "main-storage-corner"
   ]
 
-  const buildURL = imagePath => `https://ik.imagekit.io/quasicraft/${imagePath}.png`
+  const buildURL = imagePath => `https://ik.imagekit.io/quasicraft/tr:w-1280,h-720/${imagePath}.png`
 
   return(
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-8">
