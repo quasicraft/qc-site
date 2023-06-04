@@ -1,0 +1,14 @@
+h2.status {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+h2.status[color_code="Needs deco"] { color: #eab308; }
+
+h2.status[color_code="Not started"] { color: #ef4444; }
+
+h2.status[color_code="Done"] { color: #22c55e; }
+
+h2.status[color_code="Ongoing"] { color: #f97316; }
