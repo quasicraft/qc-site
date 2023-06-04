@@ -1,0 +1,31 @@
+h1.title {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+}
+
+h3.status {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+h3.status[color_code="Needs deco"] { color: #eab308; }
+
+h3.status[color_code="Not started"] { color: #ef4444; }
+
+h3.status[color_code="Done"] { color: #22c55e; }
+
+h3.status[color_code="Ongoing"] { color: #f97316; }
+
+.content h2 {
+  color: #fff;
+}
+
+.content ul {
+  color: #cbd5e1;
+}
