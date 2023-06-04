@@ -6,7 +6,7 @@ import logo from "../public/images/icon.png";
 export default function Layout({ children }) {
   return(
     <div className="flex flex-col min-h-screen bg-slate-950 text-slate-100">
-      <header className="mb-8 py-4">
+      <header className="mx-4 mb-8 py-4">
         <div className="container mx-auto max-w-4xl flex justify-between">
           <Link href="/">
             <Image width="48" height="48" src={logo} />
@@ -25,7 +25,7 @@ export default function Layout({ children }) {
         </div>
       </header>
       <main className="container mx-auto max-w-4xl flex-1">{children}</main>
-      <footer className="mb-8">
+      <footer className="mx-4 mb-8">
         <div className='container mx-auto flex justify-center'>
             &copy; 2023 Quasicraft
         </div>
