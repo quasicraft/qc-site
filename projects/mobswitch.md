@@ -2,6 +2,7 @@
 title: "Mobswitch"
 status: "Needs deco"
 date: "2023-04-24"
+image: "mob-switch"
 ---
 
 ## 13-04-2023
