@@ -2,6 +2,7 @@
 title: "Nether perimeter"
 status: "Ongoing"
 date: "2022-09-16"
+image: "nether-tunnelbore"
 ---
 
 ## 16-09-2022
