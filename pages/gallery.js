@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+import "photoswipe/dist/photoswipe.css"
+import { Gallery, Item } from "react-photoswipe-gallery";
 
-export default function Gallery() {
+export default function photoGallery() {
 
   const images = [
     "mob-switch",
@@ -19,12 +19,18 @@ export default function Gallery() {
   const buildURL = imagePath => `https://ik.imagekit.io/quasicraft/tr:w-1280,h-720/${imagePath}.png`
 
   return(
-    <div className="grid grid-cols-1 md:grid-cols-2 mx-8 pb-2">
-      {images.map(image => (
-        <div key={image} className="relative overflow-hidden flex flex-col rounded-xl m-2">
-          <Image src={buildURL(image)} width={1280} height={720} />
-        </div>
-      ))}
-    </div>
+    <Gallery>
+      <div className="relative grid grid-cols-2 mx-8">
+        {images.map(image => (
+          <div className="overflow-hidden rounded-2xl m-2">
+            <Item original={`https://ik.imagekit.io/quasicraft/tr:w-1280,h-720/${image}.png`} thumbnail={`https://ik.imagekit.io/quasicraft/tr:w-850,h-480/${image}.png`} width="1280" height="720">
+              {({ ref, open }) => (
+                <img ref={ref} onClick={open} src={`https://ik.imagekit.io/quasicraft/tr:w-850,h-480/${image}.png`} />
+              )}
+            </Item>
+          </div>
+        ))}
+      </div>
+    </Gallery>
   );
 }
