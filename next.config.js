@@ -1,6 +1,7 @@
 const nextConfig = {
-  output: "export",
-  assetPrefix: "./",
+  images: {
+    domains: [ "ik.imagekit.io" ]
+  },
 };
 
 module.exports = nextConfig
