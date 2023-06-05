@@ -1,5 +1,6 @@
 import { getSortedProjectsData } from "@/lib/projects";
 import Link from "next/link";
+import styles from "../components/projects.module.css";
 
 export default function Projects({ allProjectsData }) {
   return(
@@ -7,10 +8,7 @@ export default function Projects({ allProjectsData }) {
       {allProjectsData.map(({ id, status, title }) => (
         <div key={id} className="m-4 border-2 border-slate-800 rounded-xl flex flex-col">
           <Link href={`/projects/${id}`}><h1 className="px-4 pt-4 pb-2">{title}</h1></Link>
-          <h2 className={`px-4 pb-4 font-bold 
-          ${status == "Ongoing" ? "text-orange-500" : "text-red-500" | status == "Needs deco" ? "text-yellow-500" :  "text-red-500" | status == "Done" ? "text-green-500" : "text-red-500"}`}>
-            {status}
-          </h2>
+          <h2 color_code={status} className={styles.status}>{status}</h2>
         </div>
       ))}
     </div>
