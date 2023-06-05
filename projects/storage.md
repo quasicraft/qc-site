@@ -2,7 +2,7 @@
 title: "Main storage"
 status: "Ongoing"
 date: "2023-04-10"
-image: "main-storage-corner"
+image: "storage-corner-right"
 ---
 
 ## 02-06-2023
