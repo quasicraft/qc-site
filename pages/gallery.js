@@ -20,7 +20,7 @@ export default function photoGallery() {
 
   return(
     <Gallery>
-      <div className="relative grid grid-cols-2 mx-8">
+      <div className="relative grid grid-cols-1 md:grid-cols-2 mx-8">
         {images.map(image => (
           <div className="overflow-hidden rounded-2xl m-2">
             <Item original={`https://ik.imagekit.io/quasicraft/tr:w-1280,h-720/${image}.png`} thumbnail={`https://ik.imagekit.io/quasicraft/tr:w-850,h-480/${image}.png`} width="1280" height="720">
