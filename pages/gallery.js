@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Gallery() {
 
   const images = [
-    "mob-switch", "main-storage-corner"
+    "mob-switch", "storage-corner-left", "iron-farm", "storage-front", "storage-corner-right", "nether-mobswitch"
   ]
 
   const buildURL = imagePath => `https://ik.imagekit.io/quasicraft/tr:w-1280,h-720/${imagePath}.png`
