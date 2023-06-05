@@ -2,6 +2,7 @@
 title: "Iron farm"
 status: "Needs deco"
 date: "2023-02-10"
+image: "iron-farm"
 ---
 
 ## 10-02-2023
