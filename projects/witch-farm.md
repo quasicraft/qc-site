@@ -2,6 +2,7 @@
 title: "Witch farm"
 status: "Ongoing"
 date: "2022-09-25"
+image: "small-witch-farm"
 ---
 
 ## 24-09-2022
