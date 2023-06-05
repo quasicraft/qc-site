@@ -16,14 +16,12 @@ export default function photoGallery() {
     "small-witch-farm"
   ]
 
-  const buildURL = imagePath => `https://ik.imagekit.io/quasicraft/tr:w-1280,h-720/${imagePath}.png`
-
   return(
     <Gallery>
       <div className="relative grid grid-cols-1 md:grid-cols-2 mx-8">
         {images.map(image => (
           <div className="overflow-hidden rounded-2xl m-2">
-            <Item original={`https://ik.imagekit.io/quasicraft/tr:w-1280,h-720/${image}.png`} thumbnail={`https://ik.imagekit.io/quasicraft/tr:w-850,h-480/${image}.png`} width="1280" height="720">
+            <Item original={`https://ik.imagekit.io/quasicraft/${image}.png`} thumbnail={`https://ik.imagekit.io/quasicraft/tr:w-850,h-480/${image}.png`} width="1280" height="720">
               {({ ref, open }) => (
                 <img ref={ref} onClick={open} src={`https://ik.imagekit.io/quasicraft/tr:w-850,h-480/${image}.png`} />
               )}
