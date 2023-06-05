@@ -2,6 +2,7 @@
 title: "Froglight farm"
 status: "Done"
 date: "2023-01-12"
+image: "froglight-farm"
 ---
 
 ## 13-01-2023
