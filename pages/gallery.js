@@ -21,6 +21,7 @@ export default function photoGallery() {
     <>
       <Head>
         <title>Gallery - Quasicraft</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta 
           name="description" 
           content="Check out our gallery, with amazing high-quality shots of all the beautiful builds on the quasicraft server." 

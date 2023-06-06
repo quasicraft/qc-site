@@ -9,6 +9,7 @@ export default function Home({ recentProjects }) {
     <>
       <Head>
         <title>Quasicraft</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta 
           name="description" 
           content="The website of the quasicraft server, we try to make the coolest and best-looking redstone contraptions out there." 
@@ -35,7 +36,7 @@ export default function Home({ recentProjects }) {
         <div id="about" className="mb-8">
           <h1 className="text-3xl font-bold mb-4">About</h1>
           <p className="text-slate-300 max-w-3xl mx-auto">
-            On the quasicraft server, our goal is to build highly efficient minecraft farms and decorate them as nice as possible. Quasicraft is semi-vanilla, with some tweaks from mods  and datapacks. Currently there are just two players, but we have managed to accomplish a lot. Check out the <Link className="text-white underline" href="/gallery">gallery</Link> if you want to see some screenshots, or check out the <Link className="text-white underline" href="/#server-configuration">server configuration</Link> for more information on mods and specs
+            On the quasicraft server, our goal is to build highly efficient minecraft farms and decorate them as nice as possible. Quasicraft is semi-vanilla, with some tweaks from mods and datapacks. Currently there are just two players, but we have managed to accomplish a lot. Check out the <Link className="text-white underline" href="/gallery">gallery</Link> if you want to see some screenshots, or check out the <Link className="text-white underline" href="/#server-configuration">server configuration</Link> for more information on mods and specs
           </p>
         </div>
         <div id="recent-projects" className="mb-8">
@@ -51,7 +52,6 @@ export default function Home({ recentProjects }) {
         </div>
         <h1 id="server-configuration" className="text-3xl font-bold mb-4">Server configuration</h1>
         <div id="specs" className="mb-4 prose prose-slate dark:prose-invert max-w-3xl mx-auto">
-          <p>
             Our main survival server running a few mods and datapacks to make the game more enjoyable: <br />
             <ul>
               <li><Link href="https://github.com/gnembon/fabric-carpet">Carpet Mod</Link></li>
@@ -91,7 +91,6 @@ export default function Home({ recentProjects }) {
               <li>Patriot Memory P300 M.2</li>
             </ul>
             Everything is packed into a Fractal Design Focus 2 black solid.
-          </p>
         </div>
       </div>
     </>

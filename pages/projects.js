@@ -8,6 +8,7 @@ export default function Projects({ allProjectsData }) {
     <>
       <Head>
         <title>Projects - Quasicraft</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta 
           name="description" 
           content="Quasicraft's project list. Check out the status on every project we're working on and what we've been up to recently!" 
