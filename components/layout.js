@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <header className="mx-4 mb-8 py-4">
         <div className="container mx-auto max-w-4xl flex justify-between">
           <Link href="/">
-            <Image width="48" height="48" src={logo} />
+            <Image width="40" height="40" src={logo} />
           </Link>
           <nav className="my-auto space-x-12">
             <Link href="/">
