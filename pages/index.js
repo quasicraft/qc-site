@@ -7,12 +7,16 @@ export default function Home() {
         <title>Quasicraft - Home</title>
         <meta 
           name="description" 
-          content="The website  for the Quasicraft server, with project overview and a gallery with all our projects." 
+          content="The website of the quasicraft server, we try to make the coolest and best-looking redstone contraptions out there." 
           key="desc" 
         />
         <meta 
+          name="og:title" 
+          content="Quasicraft" 
+        />
+        <meta 
           name="og:description" 
-          content="Website for Quasicraft with all the info on the server" 
+          content="The website of the quasicraft server, we try to make the coolest and best-looking redstone contraptions out there." 
         />
         <meta 
           name="og:image" 
