@@ -1,5 +1,6 @@
 import "photoswipe/dist/photoswipe.css"
 import { Gallery, Item } from "react-photoswipe-gallery";
+import Head from "next/head";
 
 export default function photoGallery() {
 
