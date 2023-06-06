@@ -12,7 +12,7 @@ export default function Home() {
         />
         <meta 
           name="og:description" 
-          content="Website for Quasicraft wwith all the info on the server" 
+          content="Website for Quasicraft with all the info on the server" 
         />
         <meta 
           name="og:image" 
