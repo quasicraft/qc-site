@@ -31,7 +31,7 @@ export default function photoGallery() {
         />
         <meta 
           name="og:description" 
-          content="TCheck out our gallery, with  amazing high-quality shots of all the beautiful builds on the quasicraft server." 
+          content="Check out our gallery, with  amazing high-quality shots of all the beautiful builds on the quasicraft server." 
         />
         <meta 
           name="og:image" 
