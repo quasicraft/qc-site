@@ -1,6 +1,7 @@
 import { getSortedProjectsData } from "@/lib/projects";
 import Link from "next/link";
 import styles from "../components/projects.module.css";
+import Head from "next/head";
 
 export default function Projects({ allProjectsData }) {
   return(
