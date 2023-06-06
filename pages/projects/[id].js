@@ -23,7 +23,7 @@ export default function Project({ projectData }) {
         />
         <meta 
           name="og:image" 
-          content={`https://ik.imagekit.io/quasicraft/tr:w-1280,h-360/${projectData.image}.png`}
+          content={`https://ik.imagekit.io/quasicraft/tr:w-1200,h-630/${projectData.image}.png`}
         />
       </Head>
       <Image className="object-cover" src={`https://ik.imagekit.io/quasicraft/tr:w-1280,h-360/${projectData.image}.png`} width={1280} height={360} />
