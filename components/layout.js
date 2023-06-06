@@ -5,7 +5,7 @@ import logo from "../public/images/icon.png";
 
 export default function Layout({ children }) {
   return(
-    <div className="flex flex-col min-h-screen bg-slate-950 text-slate-100">
+    <div className="flex flex-col min-h-screen bg-slate-950 text-slate-100 font-medium">
       <header className="mx-4 mb-8 py-4">
         <div className="container mx-auto max-w-4xl flex justify-between">
           <Link href="/">
