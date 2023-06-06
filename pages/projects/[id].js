@@ -25,6 +25,10 @@ export default function Project({ projectData }) {
           name="og:image" 
           content={`https://ik.imagekit.io/quasicraft/tr:w-1200,h-630/${projectData.image}.png`}
         />
+        <meta 
+          name="robots" 
+          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+        />
       </Head>
       <Image className="object-cover" src={`https://ik.imagekit.io/quasicraft/tr:w-1280,h-360/${projectData.image}.png`} width={1280} height={360} />
       <div className="pt-4 mx-4 md:mx-auto prose">
