@@ -1,9 +1,13 @@
 ---
 title: "Main storage"
 status: "Ongoing"
-date: "2023-04-10"
+date: "2023-06-07"
 image: "storage-corner-right"
 ---
+
+## 06-06-2023
+- Made MIS categories clearer with indicator blocks
+- Filled MIS categories a bit more
 
 ## 02-06-2023
 - Fixed parallel unloader
