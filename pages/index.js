@@ -52,7 +52,7 @@ export default function Home({ recentProjects }) {
         </div>
         <h1 id="server-configuration" className="text-3xl font-bold mb-4">Server configuration</h1>
         <div id="specs" className="mb-4 prose prose-slate dark:prose-invert max-w-3xl mx-auto">
-            Our main survival server running a few mods and datapacks to make the game more enjoyable: <br />
+            Our main survival server running a few mods and datapacks to make the game more enjoyable:
             <ul>
               <li><Link href="https://github.com/gnembon/fabric-carpet">Carpet Mod</Link></li>
               <li><Link href="https://github.com/gnembon/carpet-extra">Carpet Extra</Link></li>
@@ -80,7 +80,7 @@ export default function Home({ recentProjects }) {
               <li>No xp penalty, which removes the 7 level cap for dropped xp on death, and instead drops 50% of your xp.</li>
             </ul>
 
-            Last, we run the Track Statistics datapack from <Link href="https://vanillatweaks.net/picker/datapacks/">Vanillatweaks</Link> to track some statistics for bragging rights.
+            Last, we run the Track Statistics datapack from <Link href="https://vanillatweaks.net/picker/datapacks/">Vanillatweaks</Link> to track some statistics for bragging rights. <br />  <br />
 
             We run two minecraft servers on our server pc. One creative server, which runs a somewhat old backup, and the main Quasicraft survival server. The server pc is specced out as following:
             <ul>
