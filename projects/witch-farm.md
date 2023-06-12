@@ -1,9 +1,13 @@
 ---
 title: "Witch farm"
 status: "Ongoing"
-date: "2022-09-25"
-image: "small-witch-farm"
+date: "2023-06-12"
+image: "witch-trenches"
 ---
+
+## 12-06-2023
+- Finished first small side trench for worldeater
+- Started second smalle side trench
 
 ## 24-09-2022
 - Finished last large trench for worldeater
