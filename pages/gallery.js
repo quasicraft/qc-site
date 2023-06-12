@@ -5,6 +5,7 @@ import Head from "next/head";
 export default function photoGallery() {
 
   const images = [
+    "witch-trenches",
     "mob-switch",
     "storage-corner-left",
     "iron-farm",
