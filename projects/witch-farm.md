@@ -1,9 +1,13 @@
 ---
 title: "Witch farm"
 status: "Ongoing"
-date: "2023-06-23"
+date: "2023-06-27"
 image: "witch-trenches"
 ---
+
+## 27-06-2023
+- Finished world eater build
+- First trial run for world eater
 
 ## 23-06-2023
 - Finished return stations for world eater
