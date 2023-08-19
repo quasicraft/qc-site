@@ -9,9 +9,11 @@ export default function photoGallery() {
     "mob-switch",
     "iron-farm",
     "storage-front",
+    "wood-village",
     "nether-tunnelbore",
     "villager-smithy",
     "storage-corner-right",
+    "sniffer-zoo",
     "nether-mobswitch",
     "froglight-farm",
     "small-witch-farm"
