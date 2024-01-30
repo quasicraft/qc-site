@@ -1,9 +1,12 @@
 ---
 title: "Villager hall"
 status: "Ongoing"
-date: "2023-05-29"
+date: "2023-08-03"
 image: "villager-smithy"
 ---
+
+## 03-08-2023
+- Started finding good enchanted books
 
 ## 19-05-2023
 - Began transferring villagers over to end for trading area
