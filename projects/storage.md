@@ -1,9 +1,12 @@
 ---
 title: "Main storage"
 status: "Ongoing"
-date: "2023-06-07"
+date: "2024-01-11"
 image: "storage-corner-right"
 ---
+
+## 11-01-2024
+- Started clearing area for chunk loader array
 
 ## 06-06-2023
 - Made MIS categories clearer with indicator blocks
