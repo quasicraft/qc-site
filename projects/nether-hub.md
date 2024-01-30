@@ -1,9 +1,16 @@
 ---
-title: "Nether perimeter"
+title: "Nether hub"
 status: "Ongoing"
 date: "2022-09-16"
 image: "nether-tunnelbore"
 ---
+
+## 08-09-2023
+- Finished first nether tunnel
+
+## 08-04-2023
+- Stopped nether perimeter plans
+- Started nether hub design
 
 ## 16-09-2022
 - Finished large tunnelbore run
