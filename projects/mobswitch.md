@@ -1,9 +1,12 @@
 ---
 title: "Mobswitch"
-status: "Needs deco"
-date: "2023-06-08"
+status: "Done"
+date: "2023-06-21"
 image: "mob-switch"
 ---
+
+## 21-06-2023
+- Finished terrain deco for mob switch
 
 ## 08-06-2023
 - Added chunk loader to mobswitch
