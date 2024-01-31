@@ -6,6 +6,7 @@ export default function photoGallery() {
 
   const images = [
     "witch-trenches",
+    "west-tunnel",
     "mob-switch",
     "iron-farm",
     "storage-front",
@@ -13,10 +14,12 @@ export default function photoGallery() {
     "nether-tunnelbore",
     "villager-smithy",
     "storage-corner-right",
+    "witch-eater",
     "sniffer-zoo",
     "nether-mobswitch",
     "froglight-farm",
-    "small-witch-farm"
+    "fireworks-factory",
+    "small-witch-farm",
   ]
 
   return(
