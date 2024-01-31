@@ -2,7 +2,7 @@
 title: "Witch farm"
 status: "Ongoing"
 date: "2023-06-27"
-image: "witch-trenches"
+image: "witch-eater"
 ---
 
 ## 27-06-2023
