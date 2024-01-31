@@ -2,7 +2,7 @@
 title: "Nether hub"
 status: "Ongoing"
 date: "2023-09-08"
-image: "nether-tunnelbore"
+image: "west-tunnel"
 ---
 
 ## 08-09-2023
