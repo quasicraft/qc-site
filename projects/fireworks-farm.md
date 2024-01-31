@@ -2,6 +2,7 @@
 title: "Fireworks farm"
 status: "Needs deco"
 date: "2024-01-29"
+image: "fireworks-factory"
 ---
 
 ## 29-01-2024
